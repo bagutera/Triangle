@@ -13,7 +13,7 @@ public class Triangle
         Scanner scaner = new Scanner(System.in);
         System.out.println("Side A :");
 //        boolean side1 = scaner.hasNextInt();
-        int sideA = scaner.nextDouble();
+        double sideA = scaner.nextDouble();
 
         System.out.println("Side B :");
         double sideB = scaner.nextDouble();
