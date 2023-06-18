@@ -12,13 +12,14 @@ public class Triangle
 
         Scanner scaner = new Scanner(System.in);
         System.out.println("Side A :");
-        int sideA = scaner.nextInt();
+//        boolean side1 = scaner.hasNextInt();
+        double sideA = scaner.nextDouble();
 
         System.out.println("Side B :");
-        int sideB = scaner.nextInt();
+        double sideB = scaner.nextDouble();
 
         System.out.println("Side C :");
-        int sideC = scaner.nextInt();
+        double sideC = scaner.nextDouble();
 
         if(sideA >= (sideB+sideC))
         {
